@@ -1,0 +1,48 @@
+body{
+    background-color: #F6931E !important;
+}
+h1, h3{
+    text-align: center;
+    width: 100%;
+}
+table caption{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #262626; 
+    text-align: center;
+    caption-side: top;
+}
+.table-wrap{
+    background: #eaeaea;
+    border-radius: 2px;    
+}
+.table{
+    background: #eaeaea;
+    border-radius: 2px;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+form{
+    background: #eaeaea;
+    border-radius: 2px;
+    padding: 2rem;
+    margin-top: 5rem;   
+}
+.form-row{
+    padding: 1rem;
+}
+#send-btn{
+    background-color: #22AAE2;
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .table{
+        margin-top: 2rem;
+        font-size: 0.92rem;
+    }
+    form{
+        margin-top: 2rem;   
+    }
+}
